@@ -1,7 +1,5 @@
 # Condicionais
-
 nota = int(input('\nNota:'))
-
 if nota >= 10:
     print("Apto")
 else:
@@ -16,7 +14,7 @@ idade = int(input('\nIdade:'))
 
 if idade >= 18:
     print("Pode Assistir!")
-elif idade > 16:
+elif idade >= 16:
     print("Pode aguardar pelo proximo filme!")
 else:
     print("Nao pode entrar no cinema!")
