@@ -40,7 +40,9 @@ print("\n ***\n")
 paises_dic = {1: "Angola", 2: "Rwanda", 3: "Congo", 4: "Namibia"}
 for chave in paises_dic:
     print(chave)
+
 print()
+
 # imprimindo chave e valor
-for chave,valor in paises_dic.items():
-    print (chave,valor)
+for chave, valor in paises_dic.items():
+    print(chave, valor, end='; ')
