@@ -32,3 +32,5 @@ qtd = 3
 pu = 300
 msg = 'Kit = quantidade x pu = {} x {} = {} AKz'.format(qtd, pu, pu*qtd)
 print(msg)
+msg = f"Kit = quantidade x pu = {qtd} x {pu} = {pu*qtd} AKz"
+print(msg)
