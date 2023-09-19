@@ -46,3 +46,12 @@ print()
 # imprimindo chave e valor
 for chave, valor in paises_dic.items():
     print(chave, valor, end='; ')
+
+print('Explorando o poder do Range\n')
+# Imprimindo numeros impares positivos [1;10[ e negativos ]-10;-1]
+for i in range(1, 10, 2):
+    print(f"+{i}", end=' ')
+print()
+for i in range(-1, -10, -2):
+    print(i, end=' ')
+print()
